@@ -1,0 +1,14 @@
+{
+  "type": "postgres",
+  "port": 5432,
+  "host": "localhost",
+  "username": "postgres",
+  "password": "docker",
+  "database": "type-graphql-example",
+  "logging": true,
+  "synchronize": true,
+  "entities": ["./src/entities/*.ts"],
+  "options": {
+    "trustServerCertificate": true
+  }
+}
